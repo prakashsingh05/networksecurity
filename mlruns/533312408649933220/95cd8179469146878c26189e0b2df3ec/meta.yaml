@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/NetworkSecurity/mlruns/533312408649933220/95cd8179469146878c26189e0b2df3ec/artifacts
+end_time: 1769248344274
+entry_point_name: ''
+experiment_id: '533312408649933220'
+lifecycle_stage: active
+run_id: 95cd8179469146878c26189e0b2df3ec
+run_name: awesome-sloth-57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769248334151
+status: 3
+tags: []
+user_id: prakashsingh05
