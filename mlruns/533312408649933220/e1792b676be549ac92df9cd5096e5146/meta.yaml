@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Projects/NetworkSecurity/mlruns/533312408649933220/e1792b676be549ac92df9cd5096e5146/artifacts
+end_time: 1769243353881
+entry_point_name: ''
+experiment_id: '533312408649933220'
+lifecycle_stage: active
+run_id: e1792b676be549ac92df9cd5096e5146
+run_name: nimble-ray-799
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769243302948
+status: 3
+tags: []
+user_id: prakashsingh05

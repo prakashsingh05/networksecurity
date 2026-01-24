@@ -9,6 +9,9 @@ from networksecurity.entity.config_entity import ModelTrainerConfig
 
 import mlflow
 
+import dagshub
+dagshub.init(repo_owner='prakashsingh05', repo_name='networksecurity', mlflow=True)
+
 mlflow.set_tracking_uri("file:./mlruns")
 mlflow.set_experiment("NetworkSecurity_Model_Training")
 from urllib.parse import urlparse
@@ -45,7 +48,7 @@ class ModelTrainer:
             raise NetworkSecurityException(e,sys)
         
     def track_mlflow(self,best_model,classificationmetric):
-        mlflow.set_registry_uri("https://dagshub.com/krishnaik06/networksecurity.mlflow")
+        mlflow.set_registry_uri("https://dagshub.com/prakashsingh05/networksecurity.mlflow")
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         with mlflow.start_run():
             f1_score=classificationmetric.f1_score
